@@ -1,5 +1,5 @@
-value = float(input("Enter a value"))
-temp =  input("Enter the temperature")
+value = float(input("Enter a value: "))
+temp =  input("Enter the temperature: ")
 
 if temp == 'C' or temp == 'c':
     converted_value = (value * 9/5) + 32
